@@ -23,7 +23,7 @@
             },
             "horizon": {
               "required": {"ref": "#/$defs/task_ids/horizon_13"},
-              "optional": {"ref": "#/$defs/task_ids/horizon_1326"}
+              "optional": {"ref": "#/$defs/task_ids/horizon_1426"}
             }
           },
           "output_types": {"$ref": "#/$defs/output_types/early_round_output"}
@@ -57,7 +57,7 @@
             },
             "horizon": {
               "required": {"ref": "#/$defs/task_ids/horizon_13"},
-              "optional": {"ref": "#/$defs/task_ids/horizon_1326"}
+              "optional": {"ref": "#/$defs/task_ids/horizon_1426"}
             }
           },
           "output_types": {"$ref": "#/$defs/output_types/early_round_output"}
@@ -117,7 +117,7 @@
             }
           },
         }, 
-        {          
+        {        
           "task_ids": {
             "origin_date": {
               "required": ["2022-06-05"],
